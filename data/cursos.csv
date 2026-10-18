@@ -1,0 +1,11 @@
+grade,nome,grau,modalidade,duracao_semestres,carga_horaria_total,ano_vigencia,popularidade
+ads,Análise e Desenvolvimento de Sistemas,tecnologo,ead,5,2000,2020,10
+ads,Análise e Desenvolvimento de Sistemas,tecnologo,presencial,5,2000,2020,8
+cc,Ciência da Computação,bacharelado,presencial,8,3200,2020,10
+es,Engenharia de Software,bacharelado,hibrido,8,3200,2020,8
+adm,Administração,bacharelado,presencial,8,3000,2020,12
+adm,Administração,bacharelado,ead,8,3000,2020,10
+ccont,Ciências Contábeis,bacharelado,hibrido,8,3000,2020,8
+ped,Pedagogia,licenciatura,hibrido,8,3200,2020,8
+mat,Matemática,licenciatura,presencial,8,3200,2020,5
+grh,Gestão de Recursos Humanos,tecnologo,hibrido,4,1600,2020,6

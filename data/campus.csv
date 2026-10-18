@@ -1,0 +1,4 @@
+nome,referencia,logradouro,numero,complemento,bairro,cidade,uf,cep,email,ddd,regiao,peso
+Campus São Paulo,"USP, Cidade Universitária",Rua da Reitoria,374,,Butantã,São Paulo,SP,05508220,campus.saopaulo@hogwarts.com,11,sp,40
+Campus Rio de Janeiro,"UERJ, campus Maracanã",Rua São Francisco Xavier,524,campus universitário,Maracanã,Rio de Janeiro,RJ,20550013,campus.riodejaneiro@hogwarts.com,21,rj,35
+Campus Niterói,"UFF, campus Valonguinho",Rua Mário Santos Braga,30,campus Valonguinho,Centro,Niterói,RJ,24020140,campus.niteroi@hogwarts.com,21,rj,25

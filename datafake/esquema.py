@@ -1,0 +1,70 @@
+"""Contrato do banco: colunas (na ordem do modelo lógico) e regras usadas na validação.
+A ordem das chaves de COLUNAS é a ordem de criação das tabelas (camadas 0 a 5)."""
+COLUNAS = {
+    "Endereco": ["id_endereco", "logradouro", "numero", "complemento", "bairro", "cidade", "estado", "cep"],
+    "Periodo_Letivo": ["id_periodo", "codigo", "data_inicio", "data_fim", "data_inicio_matricula",
+                       "data_fim_matricula", "data_limite_trancamento"],
+    "Disciplina": ["id_disciplina", "codigo", "nome", "carga_horaria", "creditos", "ementa"],
+    "Curso": ["id_curso", "nome", "grau", "modalidade", "duracao_semestres", "carga_horaria_total"],
+    "Campus": ["id_campus", "nome", "telefone", "email", "id_endereco"],
+    "Professor": ["id_professor", "nome", "cpf", "email", "telefone", "titulacao", "data_contratacao",
+                  "status", "data_desligamento", "id_endereco"],
+    "Aluno": ["id_aluno", "nome", "cpf", "email", "telefone", "data_nascimento", "id_endereco"],
+    "Matriz_Curricular": ["id_matriz", "id_curso", "ano_vigencia", "ativa"],
+    "Pre_Requisito": ["id_disciplina", "id_disciplina_requisito"],
+    "Professor_Campus": ["id_professor", "id_campus", "data_inicio", "data_fim"],
+    "Usuario": ["id_usuario", "email", "senha_hash", "perfil", "ativo", "id_aluno", "id_professor", "criado_em"],
+    "Grade_Curricular": ["id_matriz", "id_disciplina", "periodo_sugerido", "obrigatoria"],
+    "Vinculo_Curso": ["id_vinculo", "id_aluno", "id_matriz", "id_campus", "matricula", "data_ingresso",
+                      "status", "data_encerramento"],
+    "Turma": ["id_turma", "id_disciplina", "id_periodo", "id_professor", "id_campus", "codigo_turma", "vagas"],
+    "Horario_Turma": ["id_horario", "id_turma", "dia_semana", "hora_inicio", "hora_fim", "sala"],
+    "Aula": ["id_aula", "id_turma", "data_aula", "conteudo"],
+    "Avaliacao": ["id_avaliacao", "id_turma", "descricao", "peso", "data_aplicacao"],
+    "Inscricao_Turma": ["id_inscricao", "id_vinculo", "id_turma", "data_inscricao", "situacao"],
+    "Presenca": ["id_aula", "id_inscricao", "id_turma", "presente"],
+    "Nota": ["id_inscricao", "id_avaliacao", "id_turma", "valor"],
+}
+
+PKS = {t: (c[0],) for t, c in COLUNAS.items()}
+PKS.update({"Pre_Requisito": ("id_disciplina", "id_disciplina_requisito"),
+            "Professor_Campus": ("id_professor", "id_campus"),
+            "Grade_Curricular": ("id_matriz", "id_disciplina"),
+            "Presenca": ("id_aula", "id_inscricao"),
+            "Nota": ("id_inscricao", "id_avaliacao")})
+
+UNICOS = {"Campus": [("nome",)], "Professor": [("cpf",), ("email",)], "Aluno": [("cpf",), ("email",)],
+          "Usuario": [("email",), ("id_aluno",), ("id_professor",)], "Disciplina": [("codigo",)],
+          "Periodo_Letivo": [("codigo",)], "Vinculo_Curso": [("matricula",)],
+          "Inscricao_Turma": [("id_vinculo", "id_turma")]}
+
+# (tabela filha, colunas FK, tabela pai, colunas referenciadas)
+FKS = [
+    ("Campus", ("id_endereco",), "Endereco", ("id_endereco",)),
+    ("Professor", ("id_endereco",), "Endereco", ("id_endereco",)),
+    ("Aluno", ("id_endereco",), "Endereco", ("id_endereco",)),
+    ("Matriz_Curricular", ("id_curso",), "Curso", ("id_curso",)),
+    ("Pre_Requisito", ("id_disciplina",), "Disciplina", ("id_disciplina",)),
+    ("Pre_Requisito", ("id_disciplina_requisito",), "Disciplina", ("id_disciplina",)),
+    ("Professor_Campus", ("id_professor",), "Professor", ("id_professor",)),
+    ("Professor_Campus", ("id_campus",), "Campus", ("id_campus",)),
+    ("Usuario", ("id_aluno",), "Aluno", ("id_aluno",)),
+    ("Usuario", ("id_professor",), "Professor", ("id_professor",)),
+    ("Grade_Curricular", ("id_matriz",), "Matriz_Curricular", ("id_matriz",)),
+    ("Grade_Curricular", ("id_disciplina",), "Disciplina", ("id_disciplina",)),
+    ("Vinculo_Curso", ("id_aluno",), "Aluno", ("id_aluno",)),
+    ("Vinculo_Curso", ("id_matriz",), "Matriz_Curricular", ("id_matriz",)),
+    ("Vinculo_Curso", ("id_campus",), "Campus", ("id_campus",)),
+    ("Turma", ("id_disciplina",), "Disciplina", ("id_disciplina",)),
+    ("Turma", ("id_periodo",), "Periodo_Letivo", ("id_periodo",)),
+    ("Turma", ("id_professor", "id_campus"), "Professor_Campus", ("id_professor", "id_campus")),
+    ("Horario_Turma", ("id_turma",), "Turma", ("id_turma",)),
+    ("Aula", ("id_turma",), "Turma", ("id_turma",)),
+    ("Avaliacao", ("id_turma",), "Turma", ("id_turma",)),
+    ("Inscricao_Turma", ("id_vinculo",), "Vinculo_Curso", ("id_vinculo",)),
+    ("Inscricao_Turma", ("id_turma",), "Turma", ("id_turma",)),
+    ("Presenca", ("id_aula", "id_turma"), "Aula", ("id_aula", "id_turma")),
+    ("Presenca", ("id_inscricao", "id_turma"), "Inscricao_Turma", ("id_inscricao", "id_turma")),
+    ("Nota", ("id_inscricao", "id_turma"), "Inscricao_Turma", ("id_inscricao", "id_turma")),
+    ("Nota", ("id_avaliacao", "id_turma"), "Avaliacao", ("id_avaliacao", "id_turma")),
+]

@@ -1,0 +1,170 @@
+ref,area,nome,carga_horaria,creditos,dificuldade,ementa
+ger.metodologia,GER,Metodologia Científica,60,3,2,"Método científico, normas de trabalhos acadêmicos e elaboração de projetos de pesquisa."
+ger.ingles,GER,Inglês Instrumental,60,3,2,Estratégias de leitura e compreensão de textos técnicos em língua inglesa.
+ger.comunicacao,GER,Comunicação e Expressão,60,3,1,"Leitura, interpretação e produção de textos acadêmicos e profissionais."
+ger.etica,GER,Ética e Cidadania,40,2,1,"Ética, responsabilidade social, direitos humanos e cidadania."
+ger.sociedade,GER,"Sociedade, Cultura e Meio Ambiente",40,2,1,"Relações étnico-raciais, diversidade cultural e sustentabilidade."
+ger.libras,GER,Língua Brasileira de Sinais (Libras),60,3,2,Fundamentos da Libras e da comunicação com pessoas surdas.
+ger.estatistica,GER,Estatística Aplicada,80,4,3,"Estatística descritiva, probabilidade, inferência e correlação aplicadas à gestão."
+ger.empreend,GER,Empreendedorismo e Inovação,60,3,2,"Perfil empreendedor, modelos de negócio e plano de negócios."
+mat.fund_mat,MAT,Fundamentos de Matemática,80,4,2,"Conjuntos, funções, equações, inequações, trigonometria e noções de lógica."
+mat.calc1,MAT,Cálculo Diferencial e Integral I,80,4,5,"Limites, derivadas e integrais de funções de uma variável."
+mat.calc2,MAT,Cálculo Diferencial e Integral II,80,4,5,"Técnicas de integração, sequências e séries numéricas."
+mat.calc3,MAT,Cálculo Diferencial e Integral III,80,4,5,"Funções de várias variáveis, derivadas parciais e integrais múltiplas."
+mat.geo_analitica,MAT,Geometria Analítica,80,4,4,"Vetores, retas, planos, cônicas e quádricas."
+mat.algebra_linear,MAT,Álgebra Linear,80,4,4,"Espaços vetoriais, transformações lineares, autovalores e autovetores."
+mat.discreta,MAT,Matemática Discreta,80,4,4,"Lógica, conjuntos, relações, indução, combinatória e grafos."
+mat.matfin,MAT,Matemática Financeira,80,4,3,"Juros simples e compostos, descontos, amortização e fluxo de caixa."
+mat.prob,MAT,Probabilidade e Estatística,80,4,4,"Variáveis aleatórias, distribuições, estimação e testes de hipóteses."
+mat.calc_num,MAT,Cálculo Numérico,80,4,4,"Zeros de funções, sistemas lineares, interpolação e integração numérica."
+mat.analise1,MAT,Análise Real I,80,4,5,"Construção dos reais, sequências, continuidade e diferenciabilidade."
+mat.analise2,MAT,Análise Real II,80,4,5,"Integral de Riemann, sequências e séries de funções."
+mat.estruturas_alg,MAT,Estruturas Algébricas,80,4,5,"Grupos, anéis e corpos."
+mat.hist_mat,MAT,História da Matemática,60,3,2,Desenvolvimento histórico dos conceitos matemáticos e do seu ensino.
+mat.geo_plana,MAT,Geometria Euclidiana Plana,80,4,3,"Axiomas, congruência, semelhança, áreas e circunferência."
+mat.geo_espacial,MAT,Geometria Espacial,80,4,3,"Poliedros, corpos redondos, áreas e volumes."
+mat.eq_dif,MAT,Equações Diferenciais Ordinárias,80,4,5,"Equações de primeira e segunda ordem, sistemas e aplicações."
+mat.teoria_numeros,MAT,Teoria dos Números,80,4,4,"Divisibilidade, congruências, números primos e equações diofantinas."
+mat.didatica_mat,MAT,Didática da Matemática,80,4,2,Teorias e metodologias de ensino e aprendizagem da matemática.
+mat.tec_ens,MAT,Tecnologias no Ensino de Matemática,60,3,2,"Geometria dinâmica, planilhas e recursos digitais para a sala de aula."
+mat.modelagem,MAT,Modelagem Matemática,80,4,3,Construção e análise de modelos matemáticos de situações reais.
+mat.edu_mat,MAT,Educação Matemática,80,4,2,Tendências em educação matemática e resolução de problemas.
+com.fund,COM,Fundamentos de Computação,60,3,1,"Histórico, componentes de hardware e software, sistemas de numeração."
+com.algoritmos,COM,Algoritmos e Lógica de Programação,80,4,3,"Lógica, estruturas de controle, vetores e modularização."
+com.poo,COM,Programação Orientada a Objetos,80,4,4,"Classes, herança, polimorfismo, interfaces e tratamento de exceções."
+com.estrut,COM,Estruturas de Dados,80,4,4,"Listas, pilhas, filas, árvores e tabelas hash."
+com.paradigmas,COM,Linguagens de Programação,80,4,4,"Paradigmas funcional, lógico e concorrente e semântica de linguagens."
+com.arq,COM,Arquitetura e Organização de Computadores,80,4,4,"Processadores, memória, entrada e saída e linguagem de montagem."
+com.so,COM,Sistemas Operacionais,80,4,4,"Processos, threads, escalonamento, memória e sistemas de arquivos."
+com.redes,COM,Redes de Computadores,80,4,3,"Modelo TCP/IP, roteamento, camada de transporte e aplicações de rede."
+com.bd,COM,Banco de Dados,80,4,3,"Modelagem entidade-relacionamento, modelo relacional e linguagem SQL."
+com.bd2,COM,Projeto e Administração de Banco de Dados,80,4,3,"Normalização, índices, transações e otimização de consultas."
+com.analise_sist,COM,Análise e Projeto de Sistemas,80,4,3,"Levantamento de requisitos, UML e modelagem de sistemas."
+com.eng_soft,COM,Engenharia de Software,80,4,3,"Processos, metodologias ágeis, qualidade e manutenção de software."
+com.req,COM,Engenharia de Requisitos,80,4,3,"Elicitação, especificação, validação e gerência de requisitos."
+com.proj_sw,COM,Projeto e Arquitetura de Software,80,4,4,"Padrões de projeto, arquiteturas em camadas e microsserviços."
+com.teste,COM,Qualidade e Teste de Software,80,4,3,"Técnicas de teste, automação e métricas de qualidade."
+com.manut,COM,Evolução e Manutenção de Software,60,3,3,"Refatoração, gestão de configuração e tratamento de sistemas legados."
+com.web,COM,Desenvolvimento Web,80,4,3,"HTML, CSS, JavaScript e construção de aplicações web."
+com.backend,COM,Desenvolvimento Back-end e APIs,80,4,3,"Serviços REST, autenticação e persistência de dados."
+com.mobile,COM,Desenvolvimento para Dispositivos Móveis,80,4,3,Aplicativos móveis nativos e multiplataforma.
+com.ia,COM,Inteligência Artificial,80,4,4,"Busca, representação do conhecimento e aprendizado de máquina."
+com.ciencia_dados,COM,Ciência de Dados,80,4,4,"Coleta, limpeza, análise e visualização de dados."
+com.compiladores,COM,Compiladores,80,4,5,"Análise léxica, sintática e semântica e geração de código."
+com.teoria,COM,Teoria da Computação,80,4,5,"Autômatos, linguagens formais, máquinas de Turing e computabilidade."
+com.analise_algo,COM,Projeto e Análise de Algoritmos,80,4,5,"Complexidade, divisão e conquista, programação dinâmica e algoritmos gulosos."
+com.grafos,COM,Teoria dos Grafos,80,4,4,"Representações, caminhos mínimos, árvores geradoras e fluxos."
+com.logica,COM,Lógica para Computação,80,4,4,Lógica proposicional e de predicados e métodos de prova.
+com.dist,COM,Sistemas Distribuídos,80,4,4,"Comunicação, sincronização, replicação e tolerância a falhas."
+com.seg,COM,Segurança da Informação,80,4,3,"Criptografia, controle de acesso, ameaças e boas práticas."
+com.nuvem,COM,Computação em Nuvem,80,4,3,"Modelos de serviço, virtualização, contêineres e orquestração."
+com.devops,COM,DevOps e Integração Contínua,60,3,3,"Pipelines de CI/CD, infraestrutura como código e monitoramento."
+com.ihc,COM,Interação Humano-Computador,60,3,2,"Usabilidade, design de interfaces e avaliação da experiência do usuário."
+com.gp,COM,Gerência de Projetos de Software,60,3,3,"Planejamento, estimativas, riscos e acompanhamento de projetos."
+adm.teoria,ADM,Teoria Geral da Administração,80,4,2,Escolas da administração e funções do administrador.
+adm.economia,ADM,Introdução à Economia,80,4,2,"Microeconomia, mercados, oferta e demanda."
+adm.macro,ADM,Macroeconomia,80,4,3,"Agregados econômicos, inflação, política monetária e fiscal."
+adm.comp_org,ADM,Comportamento Organizacional,80,4,2,"Motivação, liderança, cultura e dinâmica de grupos."
+adm.org_metodos,ADM,"Organização, Sistemas e Métodos",60,3,2,"Estrutura organizacional, fluxogramas e racionalização de processos."
+adm.marketing,ADM,Administração de Marketing,80,4,2,"Composto de marketing, segmentação e posicionamento."
+adm.comport_cons,ADM,Comportamento do Consumidor,60,3,2,Fatores que influenciam a decisão de compra.
+adm.financ1,ADM,Administração Financeira I,80,4,4,"Demonstrações financeiras, capital de giro e análise de investimentos."
+adm.financ2,ADM,Administração Financeira II,80,4,4,"Estrutura de capital, custo de capital e orçamento de capital."
+adm.prod,ADM,Administração da Produção e Operações,80,4,3,"Planejamento e controle da produção, estoques e capacidade."
+adm.logistica,ADM,Logística e Cadeia de Suprimentos,80,4,3,"Gestão de transporte, armazenagem e cadeia de suprimentos."
+adm.rh,ADM,Administração de Recursos Humanos,80,4,2,Subsistemas de recursos humanos e gestão de pessoas.
+adm.dir_emp,ADM,Legislação Empresarial,60,3,2,"Tipos societários, contratos mercantis e recuperação de empresas."
+adm.dir_trab,ADM,Legislação Trabalhista e Previdenciária,80,4,3,"Relação de emprego, contrato de trabalho, encargos e previdência."
+adm.sist_inf,ADM,Sistemas de Informação Gerenciais,80,4,2,Tecnologia da informação como suporte à decisão.
+adm.estrategia,ADM,Planejamento Estratégico,80,4,3,"Análise ambiental, formulação e implementação de estratégias."
+adm.pesq_op,ADM,Pesquisa Operacional,80,4,4,"Programação linear, transporte e simulação."
+adm.projetos,ADM,Gestão de Projetos,60,3,3,"Ciclo de vida de projetos, escopo, prazo e custo."
+adm.ger_servicos,ADM,Gestão de Serviços,60,3,2,Características dos serviços e gestão da experiência do cliente.
+adm.mercado_cap,ADM,Mercado de Capitais,60,3,3,"Bolsa de valores, renda fixa e variável e gestão de carteiras."
+adm.gestao_qual,ADM,Gestão da Qualidade,60,3,2,"Ferramentas da qualidade, ISO 9001 e melhoria contínua."
+adm.negocios_int,ADM,Negócios Internacionais,60,3,2,"Comércio exterior, câmbio e estratégias de internacionalização."
+adm.consultoria,ADM,Consultoria Empresarial,60,3,2,"Processo de consultoria, diagnóstico e intervenção organizacional."
+adm.adm_publica,ADM,Administração Pública,60,3,2,"Estado, políticas públicas e gestão governamental."
+con.intro,CON,Contabilidade Introdutória,80,4,3,"Patrimônio, contas, lançamentos e demonstrações contábeis básicas."
+con.societaria1,CON,Contabilidade Societária I,80,4,4,"Estrutura das demonstrações, ativo, passivo e patrimônio líquido."
+con.societaria2,CON,Contabilidade Societária II,80,4,4,"Consolidação, combinação de negócios e investimentos."
+con.custos,CON,Contabilidade de Custos,80,4,4,"Classificação de custos, sistemas de custeio e análise custo-volume-lucro."
+con.gerencial,CON,Contabilidade Gerencial,80,4,4,Informações contábeis para tomada de decisão e controle.
+con.tributaria,CON,Contabilidade Tributária,80,4,4,"Apuração de tributos federais, estaduais e municipais."
+con.auditoria,CON,Auditoria Contábil,80,4,4,"Normas de auditoria, planejamento e papéis de trabalho."
+con.pericia,CON,Perícia e Arbitragem Contábil,60,3,3,Perícia judicial e extrajudicial e elaboração de laudos.
+con.analise,CON,Análise das Demonstrações Contábeis,80,4,4,"Indicadores de liquidez, endividamento e rentabilidade."
+con.orcamento,CON,Orçamento e Controladoria,80,4,4,"Orçamento empresarial, controle e papel da controladoria."
+con.dir_trib,CON,Legislação Tributária,80,4,3,"Sistema tributário nacional, obrigação e crédito tributário."
+con.etica_prof,CON,Ética Profissional Contábil,40,2,1,Código de ética e responsabilidade do profissional contábil.
+con.pub,CON,Contabilidade Pública,80,4,3,"Orçamento público, receitas, despesas e demonstrações do setor público."
+con.sist,CON,Sistemas de Informação Contábil,60,3,2,Sistemas integrados de gestão e escrituração digital.
+con.normas,CON,Normas Internacionais de Contabilidade,60,3,4,Convergência às normas IFRS e pronunciamentos do CPC.
+con.fiscal,CON,Escrituração Fiscal e Contábil,60,3,3,"Livros fiscais, SPED e obrigações acessórias."
+edu.fund,EDU,Fundamentos da Educação,80,4,2,"Concepções de educação, escola e sociedade."
+edu.hist,EDU,História da Educação,80,4,2,Educação brasileira e mundial da Antiguidade à atualidade.
+edu.filosofia,EDU,Filosofia da Educação,80,4,2,Correntes filosóficas e seus reflexos na prática pedagógica.
+edu.sociologia,EDU,Sociologia da Educação,80,4,2,"Educação, desigualdade, cultura e instituições sociais."
+edu.psico,EDU,Psicologia da Educação,80,4,2,Teorias psicológicas da aprendizagem e do desenvolvimento.
+edu.psico_dev,EDU,Psicologia do Desenvolvimento e da Aprendizagem,80,4,2,"Desenvolvimento cognitivo, afetivo e social da infância à adolescência."
+edu.didatica,EDU,Didática,80,4,2,"Planejamento, métodos e organização do trabalho docente."
+edu.pol,EDU,Políticas Públicas e Legislação Educacional,80,4,2,"LDB, BNCC, financiamento e organização da educação básica."
+edu.curriculo,EDU,Currículo e Organização Escolar,80,4,2,"Teorias do currículo, projeto político-pedagógico e cotidiano escolar."
+edu.gestao,EDU,Gestão Escolar e Coordenação Pedagógica,80,4,2,"Gestão democrática, liderança e coordenação pedagógica."
+edu.alfab,EDU,Alfabetização e Letramento,80,4,3,Processos de aquisição da leitura e da escrita.
+edu.infantil,EDU,Educação Infantil,80,4,2,"Concepções de infância, currículo e práticas na educação infantil."
+edu.met_port,EDU,Metodologia do Ensino de Língua Portuguesa,80,4,2,"Ensino de leitura, escrita, oralidade e análise linguística."
+edu.met_mat_ini,EDU,Metodologia do Ensino de Matemática nos Anos Iniciais,80,4,2,"Números, operações, geometria e resolução de problemas."
+edu.met_cien,EDU,Metodologia do Ensino de Ciências,80,4,2,Ensino investigativo de ciências naturais nos anos iniciais.
+edu.met_hist_geo,EDU,Metodologia do Ensino de História e Geografia,80,4,2,"Tempo, espaço e construção de conceitos sociais."
+edu.inclusiva,EDU,Educação Inclusiva e Educação Especial,80,4,2,"Políticas de inclusão, deficiências e atendimento educacional especializado."
+edu.tec,EDU,Tecnologias Digitais na Educação,60,3,2,"Recursos digitais, ambientes virtuais e cultura digital."
+edu.avaliacao,EDU,Avaliação da Aprendizagem,80,4,2,"Concepções, instrumentos e práticas de avaliação escolar."
+edu.eja,EDU,Educação de Jovens e Adultos,60,3,2,"História, sujeitos e metodologias da EJA."
+edu.pesq,EDU,Pesquisa em Educação,60,3,2,Métodos e técnicas de pesquisa educacional.
+edu.ludico,EDU,Ludicidade e Brincadeira,60,3,1,O jogo e a brincadeira no desenvolvimento e na aprendizagem.
+edu.arte,EDU,Arte e Educação,60,3,1,Linguagens artísticas e sua mediação na escola.
+edu.diversidade,EDU,Educação e Diversidade Étnico-Racial,80,4,2,História e cultura afro-brasileira e indígena e educação antirracista.
+edu.dh,EDU,Educação em Direitos Humanos,60,3,1,"Direitos humanos, cidadania e cultura de paz na escola."
+edu.neuro,EDU,Neurociência e Aprendizagem,60,3,3,Bases neurobiológicas da aprendizagem e implicações pedagógicas.
+edu.literatura,EDU,Literatura Infantil,60,3,1,"Gêneros, autores e mediação de leitura literária."
+edu.corpo,EDU,"Corpo, Movimento e Cultura",60,3,1,"Cultura corporal, jogos e expressão na educação básica."
+rhu.gestao_pessoas,RHU,Gestão de Pessoas,80,4,2,Papel estratégico da gestão de pessoas e seus processos.
+rhu.recrut,RHU,Recrutamento e Seleção,80,4,2,"Planejamento de vagas, fontes de recrutamento e técnicas de seleção."
+rhu.treinamento,RHU,Treinamento e Desenvolvimento,80,4,2,"Levantamento de necessidades, programas de capacitação e avaliação."
+rhu.cargos,RHU,"Cargos, Salários e Benefícios",80,4,3,"Análise de cargos, estrutura salarial e políticas de benefícios."
+rhu.dp,RHU,Departamento Pessoal e Folha de Pagamento,80,4,3,"Admissão, rescisão, cálculo da folha e encargos."
+rhu.psico_org,RHU,Psicologia Organizacional,80,4,2,"Comportamento humano, motivação e relações no trabalho."
+rhu.cultura,RHU,Cultura e Clima Organizacional,60,3,2,Diagnóstico de cultura e pesquisa de clima.
+rhu.saude,RHU,Saúde e Segurança do Trabalho,60,3,2,"Normas regulamentadoras, CIPA e qualidade de vida no trabalho."
+rhu.aval_desemp,RHU,Avaliação de Desempenho,60,3,2,"Métodos de avaliação, feedback e gestão por competências."
+rhu.rel_trab,RHU,Relações de Trabalho e Sindicais,60,3,2,"Negociação coletiva, sindicatos e conflitos trabalhistas."
+rhu.lideranca,RHU,Liderança e Gestão de Equipes,60,3,2,"Estilos de liderança, gestão de conflitos e equipes de alto desempenho."
+rhu.indicadores,RHU,Indicadores e Métricas de RH,60,3,3,"Indicadores de turnover, absenteísmo, custo e people analytics."
+est.est_com1,EST,Estágio Supervisionado em Computação I,120,6,1,Atividades práticas supervisionadas em organizações da área de computação.
+est.est_com2,EST,Estágio Supervisionado em Computação II,120,6,1,"Continuação do estágio, com relatório técnico final."
+est.est_ads,EST,Estágio Supervisionado em Sistemas,120,6,1,Atividades práticas supervisionadas em desenvolvimento e análise de sistemas.
+est.est_adm1,EST,Estágio Supervisionado em Administração I,160,8,1,Atividades práticas supervisionadas em organizações.
+est.est_adm2,EST,Estágio Supervisionado em Administração II,160,8,1,"Continuação do estágio, com relatório final."
+est.est_con1,EST,Estágio Supervisionado em Ciências Contábeis I,160,8,1,Atividades práticas supervisionadas em escritórios e departamentos contábeis.
+est.est_con2,EST,Estágio Supervisionado em Ciências Contábeis II,160,8,1,"Continuação do estágio, com relatório final."
+est.est_rhu,EST,Estágio Supervisionado em Gestão de Pessoas,160,8,1,Atividades práticas supervisionadas em departamentos de recursos humanos.
+est.est_ped1,EST,Estágio Supervisionado na Educação Infantil,100,5,1,Observação e regência na educação infantil.
+est.est_ped2,EST,Estágio Supervisionado nos Anos Iniciais,100,5,1,Observação e regência nos anos iniciais do ensino fundamental.
+est.est_ped3,EST,Estágio Supervisionado em Gestão Escolar,100,5,1,Acompanhamento da gestão e da coordenação pedagógica.
+est.est_ped4,EST,Estágio Supervisionado em Docência Integrada,100,5,1,Regência integrada e projeto de intervenção na escola.
+est.est_mat1,EST,Estágio Supervisionado em Matemática I,100,5,1,Observação e análise do ambiente escolar.
+est.est_mat2,EST,Estágio Supervisionado em Matemática II,100,5,1,Regência no ensino fundamental.
+est.est_mat3,EST,Estágio Supervisionado em Matemática III,100,5,1,Regência no ensino médio.
+est.est_mat4,EST,Estágio Supervisionado em Matemática IV,100,5,1,Projeto de intervenção e relatório final.
+est.tcc1,EST,Trabalho de Conclusão de Curso I,60,3,2,Elaboração do projeto e da fundamentação teórica do trabalho final.
+est.tcc2,EST,Trabalho de Conclusão de Curso II,60,3,2,"Desenvolvimento, redação e defesa do trabalho final."
+est.proj_conc,EST,Projeto de Conclusão de Curso,100,5,2,Projeto aplicado integrando os conhecimentos do curso.
+est.ac_ads,EST,Atividades Complementares,160,8,1,"Atividades de extensão, iniciação científica, monitoria e eventos, validadas pela coordenação."
+est.ac_grh,EST,Atividades Complementares,160,8,1,"Atividades de extensão, iniciação científica, monitoria e eventos, validadas pela coordenação."
+est.ac_cc,EST,Atividades Complementares,120,6,1,"Atividades de extensão, iniciação científica, monitoria e eventos, validadas pela coordenação."
+est.ac_es,EST,Atividades Complementares,260,13,1,"Atividades de extensão, iniciação científica, monitoria e eventos, validadas pela coordenação."
+est.ac_adm,EST,Atividades Complementares,260,13,1,"Atividades de extensão, iniciação científica, monitoria e eventos, validadas pela coordenação."
+est.ac_ccont,EST,Atividades Complementares,180,9,1,"Atividades de extensão, iniciação científica, monitoria e eventos, validadas pela coordenação."
+est.ac_ped,EST,Atividades Acadêmicas de Extensão e Complementares,360,18,1,"Atividades de extensão, iniciação científica, monitoria e eventos, validadas pela coordenação."
+est.ac_mat,EST,Atividades Acadêmicas de Extensão e Complementares,180,9,1,"Atividades de extensão, iniciação científica, monitoria e eventos, validadas pela coordenação."
